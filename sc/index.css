@@ -21,6 +21,10 @@ li a{
     color: white;
     font-size: 23px;
     text-decoration: none;
+    transition: .5s;
+}
+li a:hover{
+    color: rgb(64, 64, 255);
 }
 h3{
     color: white;
