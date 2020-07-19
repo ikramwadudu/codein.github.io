@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -11,6 +16,9 @@ nav{
     animation: linbejalan 5s alternate infinite;
     box-shadow: 1px 0 3px 3px #dddddd;
 }
+nav .brand{
+    font-family: 'Fjalla One', sans-serif;
+}
 nav ul{
   display: flex;
   width: 38%;
@@ -22,6 +30,7 @@ li a{
     font-size: 23px;
     text-decoration: none;
     transition: .5s;
+    font-family: 'Roboto', sans-serif;
 }
 li a:hover{
     color: rgb(64, 64, 255);
@@ -31,7 +40,101 @@ h3{
     font-size: 23px;
 }
 
-/* Aimation */
+/*
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.sidebar1{
+    background-color: rebeccapurple;
+    height: 200px;
+    width: 20%;
+}
+.main{
+    background-color: red;
+    height: 200px;
+    width: 70%;
+} 
+*/
+.menu{
+    width: 80%;
+    margin: 30px auto;
+}
+.q{
+    border-radius: 10px;
+    overflow: hidden;
+    height: 200px;
+    width: 25%;
+    box-shadow: 0 0 3px #dddddd;
+    transition: .5s ease;
+}
+.q h3{
+    text-align: center;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+.q span{
+    width: 50%;
+    height: 3px;
+    background-image: linear-gradient(90deg,rgb(218, 23, 23),rgb(0, 225, 255));
+    display: block;
+    margin: auto;
+    animation: linbejalan 5s alternate infinite;
+    border: none;
+    border-radius: 3px;
+}
+.q p{
+    text-align: center;
+    padding: 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+}
+a{
+    text-decoration: none;
+}
+.q p a{
+    color: blue;
+}
+.q p a:hover{
+    color: purple;
+}
+.menu h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.menu-utama{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header_layanan1{
+    width: 100%;
+    background-image: url(../img/allie-DcnAjldVI8E-unsplash.jpg);
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+}
+.header_layanan2{
+    width: 100%;
+    background-image: url(../img/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg);
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+}
+.header_layanan3{
+    width: 100%;
+    background-image: url(../img/tianyi-ma-WiONHd_zYI4-unsplash.jpg);
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+}
+.q:hover{
+    transform: scale(1.1);
+}
+
+/* Animation */
 @keyframes linbejalan{
     0%{
         filter: hue-rotate(0deg);
