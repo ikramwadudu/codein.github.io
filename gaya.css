@@ -1,0 +1,208 @@
+/* Membuat Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+/* Code */
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    padding: 15px 0px;
+    box-shadow: 0 5px 5px #eaeaea;
+}
+ul{
+    float: right;
+    right: 10px;
+    position: relative;
+}
+li{
+    display: inline-block;
+    margin-left: 10px;
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: #636363;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    transition: .3s;
+}
+li a:hover{
+    color: rgb(24, 163, 163);
+}
+.clear{
+    clear: both;
+}
+.information{
+    width: 80%;
+    min-height: 250px;
+    margin: 30px auto;
+    box-shadow: 0 0 4px #aaaaaa;
+    transition: .5s;
+}
+.information h1{
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+}
+.information p{
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: 'Roboto',sans-serif;
+}
+.info{
+    position: relative;
+    top: 40px
+}
+.foto{
+    width: 180px;
+    height: 180px;
+    background-image: url(../img/ikram.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    float: left;
+    margin-left: 20px;
+}
+.akun{
+    width: 400px;
+    padding: 15px 40px;
+    position: relative;
+    top: 70px;
+    margin-left: 10px;
+    float: left;
+    border-right: 2px solid #8a8787;
+}
+.tambahan{
+    float: left;
+    width: 430px;
+    position: relative;
+    margin: 75px 0 0 10px;
+}
+.data{
+    padding: 11px 5px;
+}
+.tebal{
+    float: left;
+    width: 200px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.gray{
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+    font-family: 'Ubuntu', sans-serif;
+}
+#ig, #yt{
+    color: black;
+    padding: 5px 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 8px;
+    text-decoration: none;
+}
+#ig{
+    background-color: #ff00d4;
+}
+#yt{
+    position: relative;
+    left: 5px;
+    background-color: #ff0000;
+    
+}
+.layanan1:hover{
+    transform: scale(1.03);
+}
+.information:hover{
+    border-radius: 30px;
+}
+.layanan p{
+    margin-top: 10px;
+    font-size: 17px;
+}
+.layanan a{
+    text-decoration: none;
+    padding: 3px 28px 5px 28px;
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid #424242;
+    top: 10px;
+}
+.layanan{
+   width: 80%;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   padding: 10px 5px;
+   text-align: center;
+   flex-wrap: wrap;
+}
+.layanan1{
+    transition: all .4s;
+    width: 30%;
+    background-color: white;
+    margin-bottom: 20px;
+    min-height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 3px #5f5f5f;
+    overflow: hidden;
+}
+.text{
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.foto1{
+    width: 100%;
+    height: 130px;
+    background-image: url(../img/duncan-kidd-Cju-BkSkM1k-unsplash.jpg);
+    background-size: 100% 130px;
+}
+.tanjob{
+    width: 80%;
+    min-height: 300px;
+    box-shadow: 0 0 5px #8a8787;
+    margin: 30px auto;
+    padding-bottom: 10px;
+}
+.tanya{
+    width: 50%;
+    position: relative;
+    right: 16px;
+    margin: 20px auto 0;
+}
+.tanya input{
+    display: inline-block;
+    padding: 8px 8px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: solid 1px;
+    transition: all .3s;
+}
+input:hover{
+    box-shadow: 0 0 4px #b34af5;
+}
+.tanjob h2{
+    text-align: center;
+    margin-bottom: 25px;
+    position: relative;
+    top: 10px;
+}
+#kirim{
+    width: 80px;
+    position: relative;
+    left: 45%;
+    bottom: 10px;
+    background-color: #aaaaaa;
+    border: solid 1px;
+    padding: 4px 26px;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+}
